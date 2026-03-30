@@ -1,0 +1,105 @@
+CLARITYCS KNOWLEDGE BASE — Customer Success Operations Manual
+Last Updated: January 2026
+
+=== ESCALATION POLICY ===
+
+CRITICAL tickets (P1):
+- First response required within 1 hour
+- Engineering must be looped in within 2 hours if unresolved
+- Customer update cadence: every 30 minutes
+- Team lead must be notified immediately
+- If unresolved after 4 hours: VP CS notified, executive sponsor contacted
+
+HIGH tickets (P2):
+- First response required within 4 hours
+- Engineering loop-in if unresolved after 8 hours
+- Customer update cadence: every 2 hours
+
+MEDIUM tickets (P3):
+- First response required within 1 business day
+- Resolution target: 3 business days
+
+LOW tickets (P4):
+- First response required within 2 business days
+- Resolution target: 5 business days
+
+=== CHURN RISK INDICATORS ===
+
+Automatic escalation to CSM required when ANY of the following occur:
+- 3 or more Critical tickets within 90 days
+- Customer mentions cancel, terminate, competitor, switch, legal
+- CSAT score below 3 for two consecutive tickets
+- No login activity for 14+ days on Pro/Enterprise plans
+- Outstanding invoice over 30 days
+- Contract renewal within 60 days AND open Critical ticket
+- C-suite directly contacts support (CEO, CFO, CTO, COO)
+
+=== RESOLUTION QUALITY STANDARDS ===
+
+A high-quality resolution must include:
+1. Root cause identified and documented
+2. Immediate fix confirmed working by customer
+3. Permanent fix timeline communicated if different from immediate fix
+4. Preventative measures documented to avoid recurrence
+5. CSAT follow-up sent within 24 hours
+
+Poor resolution indicators:
+- Issue closed without root cause identification
+- Customer re-opens same ticket within 7 days
+- CSAT score of 1 or 2 without follow-up action
+- Resolution notes say only issue resolved with no detail
+
+=== REFUND AND CREDIT POLICY ===
+
+Automatic credit approved (no manager sign-off needed):
+- Billing errors under $500
+- Service downtime exceeding SLA (pro-rated credit)
+- Feature bug causing data loss (full month credit)
+
+Manager approval required:
+- Credits over $500
+- Full month or more of credit
+- Refunds on annual plans
+
+VP approval required:
+- Credits over $5000
+- Refunds on Enterprise contracts
+
+=== ENTERPRISE ACCOUNT MANAGEMENT ===
+
+Enterprise accounts (over $10000 ARR) receive:
+- Dedicated CSM assigned
+- Monthly check-in calls
+- Quarterly Business Reviews (QBR)
+- Priority routing to senior agents
+- Custom SLA terms as per contract
+
+QBR content requirements:
+- SLA performance last quarter
+- Open and resolved ticket summary
+- Feature adoption metrics
+- Renewal date and ARR at risk
+- Recommended next steps
+
+=== DATA AND COMPLIANCE ===
+
+HIPAA-covered customers: MediTrack Health, Orbis Healthcare, BrightPath Education
+- All tickets flagged HIPAA must be handled by certified agents only
+- Data access logs retained for minimum 7 years
+- No PHI in ticket descriptions — use case reference numbers only
+
+GDPR customers: All EU-based accounts
+- Data deletion requests: 30-day SLA
+- Data export requests: 72-hour SLA
+- Incident notification: 72-hour regulatory requirement
+
+=== COMMUNICATION TEMPLATES ===
+
+Critical Incident Opening:
+Thank you for reaching out. I understand the urgency and I am making this my immediate priority. I will have an update for you within the committed timeframe. In the meantime, I am taking immediate action to investigate.
+
+Escalation Notice:
+I have escalated this to our engineering team and they are actively investigating. Your account has been flagged as Priority 1. I will update you within 30 minutes.
+
+Resolution Confirmation:
+I am pleased to confirm this has been resolved. Root cause identified. Fix applied and confirmed. Preventative measures in place. Please confirm everything is working as expected.
